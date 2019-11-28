@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Console
 {
+    //JEAN Colette
     public class CalculatorEngine
     {
         /// <summary>
@@ -16,6 +17,7 @@ namespace Console
         /// <returns>the addition value</returns>
         public int Add(int a, int b)
         {
+            // new commit
             return a + b;
         }
         /// <summary>
