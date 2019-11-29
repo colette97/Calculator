@@ -10,6 +10,7 @@ namespace Console
     {
         static void Main(string[] args)
         {
+            CalculatorEngine engine = new CalculatorEngine();
         }
     }
 }
