@@ -17,7 +17,7 @@ namespace CalculatorUnitTest
 
             //
             CalculatorEngine engine = new CalculatorEngine();
-            int actual = engine.Add(a, b);
+            int actual = engine.Addition(a, b);
 
             //Comparaison avec le resulat et la fonction
             Assert.AreEqual(expected, actual);
@@ -32,7 +32,7 @@ namespace CalculatorUnitTest
 
             //
             CalculatorEngine engine = new CalculatorEngine();
-            int actual = engine.Sub(a, b);
+            int actual = engine.Substraction(a, b);
 
             //Comparaison avec le resulat et la fonction
             Assert.AreEqual(expected, actual);
@@ -47,7 +47,7 @@ namespace CalculatorUnitTest
 
             //
             CalculatorEngine engine = new CalculatorEngine();
-            int actual = engine.Mul(a, b);
+            int actual = engine.Multiply(a, b);
 
             //Comparaison avec le resulat et la fonction
             Assert.AreEqual(expected, actual);
@@ -62,7 +62,7 @@ namespace CalculatorUnitTest
 
             //
             CalculatorEngine engine = new CalculatorEngine();
-            int actual = engine.Div(a, b);
+            int actual = engine.Division(a, b);
 
             //Comparaison avec le resulat et la fonction
             Assert.AreEqual(expected, actual);
@@ -78,7 +78,7 @@ namespace CalculatorUnitTest
 
             //
             CalculatorEngine engine = new CalculatorEngine();
-            int actual = engine.Div(a, b);
+            int actual = engine.Division(a, b);
 
             //Comparaison avec le resulat et la fonction
             Assert.AreEqual(expected, actual);

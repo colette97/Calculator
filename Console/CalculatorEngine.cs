@@ -26,21 +26,27 @@ namespace Console
         /// <param name="a">1st value</param>
         /// <param name="b">2nd value</param>
         /// <returns>the substraction value</returns>
-        public virtual int Sub(int a, int b)
+        public virtual int Substraction(int a, int b)
         {
             return a - b;
         }
+        /// <summary>
+        /// Function to Subsraction two value
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
         public virtual int Multiply(int a, int b)
         {
             return a * b;
         }
         /// <summary>
-        /// Function to  two value
+        /// Function to Division two value
         /// </summary>
         /// <param name="a">1st value</param>
         /// <param name="b">2nd value</param>
         /// <returns>the substraction value</returns>
-        public virtual int Div(int a, int b)
+        public virtual int Division(int a, int b)
         {
             int res;
             if(b != 0)
