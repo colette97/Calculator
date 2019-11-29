@@ -12,47 +12,47 @@ namespace Console
         /// <summary>
         /// Function to Addition two value
         /// </summary>
-        /// <param name="a">1st value</param>
+        /// <param name="leftNumber">1st value</param>
         /// <param name="b">2nd value</param>
         /// <returns>the addition value</returns>
-        public virtual int Addition(int a, int b)
+        public static int Addition(int leftNumber, int rightNumber)
         {
             // new commit
-            return a + b;
+            return leftNumber + rightNumber;
         }
         /// <summary>
         /// Function to Subsraction two value
         /// </summary>
-        /// <param name="a">1st value</param>
-        /// <param name="b">2nd value</param>
+        /// <param name="bigNumber">1st value</param>
+        /// <param name="toSubtract">2nd value</param>
         /// <returns>the substraction value</returns>
-        public virtual int Substraction(int a, int b)
+        public virtual int Substraction(int bigNumber, int toSubtract)
         {
-            return a - b;
+            return bigNumber - toSubtract;
         }
 
         /// <summary>
         /// Function to Multiply two value
         /// </summary>
-        /// <param name="a">1st value</param>
-        /// <param name="b">2nd value</param>
+        /// <param name="leftNumber">1st value</param>
+        /// <param name="rightNumber">2nd value</param>
         /// <returns>the substraction value</returns>
-        public virtual int Multiply(int a, int b)
+        public virtual int Multiply(int leftNumber, int rightNumber)
         {
-            return a * b;
+            return leftNumber * rightNumber;
         }
         /// <summary>
         /// Function to Division two value
         /// </summary>
-        /// <param name="a">1st value</param>
-        /// <param name="b">2nd value</param>
+        /// <param name="bigNumber">1st value</param>
+        /// <param name="divisor">2nd value</param>
         /// <returns>the substraction value</returns>
-        public virtual int Division(int a, int b)
+        public virtual int Division(int bigNumber, int divisor)
         {
             int res;
-            if(b != 0)
+            if(divisor != 0)
             {
-                res = a / b;
+                res = bigNumber / divisor;
             }
             else
             {
