@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Console
 {
-    // Tu me chauffes le cerveau
     public class CalculatorEngine
     {
         // c'est bon
@@ -18,6 +17,7 @@ namespace Console
         /// <returns>the addition value</returns>
         public virtual int Addition(int a, int b)
         {
+            // new commit
             return a + b;
         }
         /// <summary>
@@ -26,27 +26,21 @@ namespace Console
         /// <param name="a">1st value</param>
         /// <param name="b">2nd value</param>
         /// <returns>the substraction value</returns>
-        public virtual int Substraction(int a, int b)
+        public virtual int Sub(int a, int b)
         {
             return a - b;
         }
-        /// <summary>
-        /// Function to Subsraction two value
-        /// </summary>
-        /// <param name="a"></param>
-        /// <param name="b"></param>
-        /// <returns></returns>
         public virtual int Multiply(int a, int b)
         {
             return a * b;
         }
         /// <summary>
-        /// Function to Division two value
+        /// Function to  two value
         /// </summary>
         /// <param name="a">1st value</param>
         /// <param name="b">2nd value</param>
         /// <returns>the substraction value</returns>
-        public virtual int Division(int a, int b)
+        public virtual int Div(int a, int b)
         {
             int res;
             if(b != 0)
