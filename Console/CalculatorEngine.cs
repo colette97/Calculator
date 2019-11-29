@@ -15,7 +15,7 @@ namespace Console
         /// <param name="leftNumber">1st value</param>
         /// <param name="b">2nd value</param>
         /// <returns>the addition value</returns>
-        public static int Addition(int leftNumber, int rightNumber)
+        public virtual int Addition(int leftNumber, int rightNumber)
         {
             // new commit
             return leftNumber + rightNumber;
